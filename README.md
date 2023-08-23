@@ -36,7 +36,7 @@ This Python script Help users to convert the given date to the desired format.
 
  
 
-3. **Running the Script:** Run the `Converting_Date()` function to see the last Saturday of the specified month and the total number of Saturdays.
+3. **Running the Script:** Run the `Converting_Date()` function to see the formatted date
 
  
 
