@@ -1,6 +1,8 @@
-import datetime
-def converting_Date(date_string):
-    given_input = datetime.datetime.strptime(date_string,"%Y/%d/%m")
-    formatted_input = given_input.strftime("%A,%Y %b %d")
+from dateutil.parser import parse
+def converting_Date():
+    date_string = input("Enter the date: ")
+    desired_format = input("Enter the desired format: ")
+    given_input = parse(date_string)
+    formatted_input = given_input.strftime(desired_format)
     print(formatted_input)
-converting_Date("2023/11/03")
+converting_Date()
