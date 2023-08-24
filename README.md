@@ -12,15 +12,15 @@
 - [Overview](#overview)
 - [Usage](#usage)
 - [Example](#example)
-- [Contributing](#contributing)
+
 
  
 
 ## Overview
 
- 
+- This Python script Help users to convert the given date to the desired format.
 
-This Python script Help users to convert the given date to the desired format.
+ 
 
  
 
@@ -28,52 +28,30 @@ This Python script Help users to convert the given date to the desired format.
 
  
 
-1. **Prerequisites:** Make sure you have Python installed on your system.
+1.Upon running the script, you will be prompted to enter a date in various formats. The dateutil.parser library will automatically handle different formats.
 
- 
+2.Next, you'll be prompted to provide the desired output format. You can use various format codes to customize the output.
 
-2. **Clone the Repository:** Clone this repository or create a new Python file and paste the code.
-
- 
-
-3. **Running the Script:** Run the `Converting_Date()` function to see the formatted date
+3.The script will convert the input date to the specified format and display the result.
 
  
 
 ## Example
-  For example, running the program with the provided input:
+  - For example, running the program with the provided input:
 
  
-## Input :
   ```bash
 
- 
-
-2023/11/03
+Enter the Date : 24-08-2023
+Enter the Format : %A,%Y %b %d
 
   ```
-## Desired Format : 
+  - will result in the output:
+
   ```bash
+Thursday,2023 Aug 24
 
- 
-
- %A, %Y %b %d
-
-  ```
-  ## output:
-
- 
-
-   ```bash
-Saturday,2023 Mar 11
- 
 
    ```
-
- 
-
-## Contributing
-- <p>Contributions are welcome! If you find any issues or want to improve the program, create an issue or submit a pull request on <a href="https://github.com/VijayaVijayan/converting_the_Date_To_DesiredFormat.git">GitHub</a>.</p>
-
 
 
