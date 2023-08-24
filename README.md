@@ -26,13 +26,18 @@
 
 ## Usage
 
- 
+**1.Prerequisites:** Make sure you install dateutil library.
+ ```bash
 
-1.Upon running the script, you will be prompted to enter a date in various formats. The dateutil.parser library will automatically handle different formats.
+pip install python-dateutil
 
-2.Next, you'll be prompted to provide the desired output format. You can use various format codes to customize the output.
+ ```
 
-3.The script will convert the input date to the specified format and display the result.
+2.Upon running the script, you will be prompted to enter a date in various formats. The dateutil.parser library will automatically handle different formats.
+
+3.Next, you'll be prompted to provide the desired output format. You can use various format codes to customize the output.
+
+4.The script will convert the input date to the specified format and display the result.
 
  
 
