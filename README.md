@@ -42,7 +42,7 @@
  
   ```bash
 
-Enter the date (YYYY/DD/MM %H:%M:%S) : 24-08-2023 04:45:34
+Enter the date (YYYY/DD/MM %H:%M:%S) : 2023/24/08 04:45:34
 Enter the desired format:  : %A,%Y %b %d
 
   ```
